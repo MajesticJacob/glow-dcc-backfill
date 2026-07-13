@@ -1,0 +1,71 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Glow DCC Backfill",
+        "description": "Log in with your Bright account. The integration will automatically find your electricity consumption resource.",
+        "data": {
+          "email": "Bright email",
+          "password": "Bright password"
+        }
+      },
+      "resource": {
+        "title": "Choose electricity resource",
+        "description": "Multiple electricity consumption resources were found. Choose the one you want to use.",
+        "data": {
+          "resource_id": "Electricity consumption resource"
+        }
+      },
+      "tariff_count": {
+        "title": "Tariff type",
+        "description": "Choose how many different electricity rates you have each day.",
+        "data": {
+          "tariff_count": "Rates per day"
+        }
+      },
+      "tariff_details": {
+        "title": "Tariff rates",
+        "description": "Enter your tariff rates in pounds per kWh. Where possible, the standard rate is prefilled from Glowmarkt/Bright.",
+        "data": {
+          "standard_rate": "Standard / flat rate per kWh",
+          "cheap_rate": "Cheap rate per kWh",
+          "peak_rate": "Peak rate per kWh",
+          "cheap_start": "Cheap period start time",
+          "cheap_end": "Cheap period end time",
+          "peak_start": "Peak period start time",
+          "peak_end": "Peak period end time"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Bright rejected the email or password.",
+      "cannot_connect": "Could not connect to Glowmarkt/Bright.",
+      "no_resources": "No electricity consumption resource was found on this Bright account.",
+      "unknown": "Unexpected error."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Tariff type",
+        "description": "Choose how many different electricity rates you have each day.",
+        "data": {
+          "tariff_count": "Rates per day"
+        }
+      },
+      "tariff_details": {
+        "title": "Glow DCC Backfill tariff settings",
+        "description": "Change your tariff rates and time windows.",
+        "data": {
+          "standard_rate": "Standard / flat rate per kWh",
+          "cheap_rate": "Cheap rate per kWh",
+          "peak_rate": "Peak rate per kWh",
+          "cheap_start": "Cheap period start time",
+          "cheap_end": "Cheap period end time",
+          "peak_start": "Peak period start time",
+          "peak_end": "Peak period end time"
+        }
+      }
+    }
+  }
+}

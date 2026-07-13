@@ -1,0 +1,11 @@
+{
+  "domain": "glow_dcc_backfill",
+  "name": "Glow DCC Backfill",
+  "codeowners": ["@MajesticJacob"],
+  "config_flow": true,
+  "documentation": "https://github.com/majesticjacob/glow-dcc-backfill",
+  "issue_tracker": "https://github.com/majesticjacob/glow-dcc-backfill/issues",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}
