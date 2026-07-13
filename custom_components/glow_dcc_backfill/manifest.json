@@ -3,9 +3,9 @@
   "name": "Glow DCC Backfill",
   "codeowners": ["@MajesticJacob"],
   "config_flow": true,
-  "documentation": "https://github.com/majesticjacob/glow-dcc-backfill",
-  "issue_tracker": "https://github.com/majesticjacob/glow-dcc-backfill/issues",
+  "documentation": "https://github.com/MajesticJacob/glow-dcc-backfill",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/MajesticJacob/glow-dcc-backfill/issues",
   "requirements": [],
   "version": "0.1.0"
 }
